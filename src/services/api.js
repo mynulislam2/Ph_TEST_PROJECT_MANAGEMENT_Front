@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'https://ph-test-project-management-front.vercel.app/api';
+const baseURL = 'https://ph-test-project-management.onrender.com/api';
 
 export const api = axios.create({ baseURL });
 
