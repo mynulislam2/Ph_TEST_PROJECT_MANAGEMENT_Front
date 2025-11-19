@@ -1,0 +1,23 @@
+.activity-log-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  padding: var(--space-4) 0;
+  gap: var(--space-4);
+}
+
+.activity-log-item:last-child {
+  border-bottom: none;
+}
+
+.activity-log-item p {
+  margin: 0;
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+.activity-log-item span {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-xs);
+}
+

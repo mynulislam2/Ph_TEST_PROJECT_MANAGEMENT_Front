@@ -1,0 +1,16 @@
+.card {
+  background: var(--color-card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-small);
+  padding: var(--space-6);
+  border: 1px solid var(--color-border);
+  position: relative;
+  overflow: hidden;
+}
+
+.heading {
+  font-family: var(--font-family-base);
+  color: var(--color-text-primary);
+  margin: 0;
+}
+

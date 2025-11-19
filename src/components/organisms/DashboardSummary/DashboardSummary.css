@@ -1,0 +1,60 @@
+.dashboard-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-4);
+}
+
+.dashboard-summary__card {
+  background: var(--color-card);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  box-shadow: var(--shadow-small);
+  border: 1px solid var(--color-border);
+  position: relative;
+}
+
+.dashboard-summary__card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(79, 70, 229, 0.6), rgba(14, 165, 233, 0.3));
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+}
+
+.dashboard-summary__card p {
+  margin: 0;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.dashboard-summary__value {
+  margin-top: var(--space-3);
+}
+
+.dashboard-summary__value h2 {
+  margin: 0;
+  font-size: var(--font-size-display);
+}
+
+.dashboard-summary__value span {
+  display: inline-block;
+  margin-top: var(--space-2);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.dashboard-summary__card.danger {
+  border-color: rgba(248, 113, 113, 0.5);
+}
+
+.dashboard-summary__card.danger span {
+  color: var(--color-danger);
+  font-weight: 600;
+}
+

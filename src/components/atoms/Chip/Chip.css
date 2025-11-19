@@ -1,0 +1,23 @@
+.chip {
+  padding: 4px 12px;
+  border-radius: var(--radius-pill);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.chip-pending {
+  background: rgba(79, 70, 229, 0.15);
+  color: var(--color-primary);
+}
+
+.chip-progress {
+  background: rgba(14, 165, 233, 0.15);
+  color: var(--color-secondary);
+}
+
+.chip-done {
+  background: rgba(52, 211, 153, 0.15);
+  color: var(--color-success);
+}
+

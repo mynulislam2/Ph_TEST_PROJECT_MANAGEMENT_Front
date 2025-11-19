@@ -1,0 +1,27 @@
+.task-reassign-panel {
+  background: var(--gradient-accent);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  box-shadow: var(--shadow-medium);
+  color: #fff;
+}
+
+.task-reassign-panel .btn {
+  background: rgba(255, 255, 255, 0.18);
+  color: #fff;
+  border-radius: var(--radius-pill);
+  padding: var(--space-2) var(--space-4);
+}
+
+.task-reassign-panel ul {
+  padding-left: 18px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.task-reassign-panel__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+

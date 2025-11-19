@@ -1,0 +1,19 @@
+.typography-title {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  margin: 0;
+}
+
+.typography-subtitle {
+  color: var(--color-text-secondary);
+  margin: 0;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.typography-body {
+  margin: 0;
+  color: var(--color-text-secondary);
+}
+

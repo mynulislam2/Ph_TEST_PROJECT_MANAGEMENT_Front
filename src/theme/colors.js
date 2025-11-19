@@ -1,0 +1,21 @@
+export const colors = {
+  primary: '#4F46E5',
+  primaryDark: '#4338CA',
+  secondary: '#0EA5E9',
+  accent: '#EC4899',
+  background: '#0F172A',
+  surface: '#101B33',
+  surfaceAlt: '#172342',
+  card: '#1E2A4A',
+  border: '#2B3554',
+  textPrimary: '#F8FAFC',
+  textSecondary: '#94A3B8',
+  muted: '#64748B',
+  danger: '#F87171',
+  warning: '#FBBF24',
+  success: '#34D399',
+  info: '#38BDF8',
+  overlay: 'rgba(15, 23, 42, 0.75)',
+  gradient: 'linear-gradient(135deg, #4F46E5 0%, #0EA5E9 100%)',
+};
+

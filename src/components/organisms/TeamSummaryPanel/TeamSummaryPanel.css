@@ -1,0 +1,40 @@
+.team-summary-panel {
+  background: var(--color-card);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  box-shadow: var(--shadow-small);
+  border: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.team-summary-panel__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.team-summary-panel__header p {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+}
+
+.team-summary-panel__header span {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.team-summary-panel__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-summary-panel__empty {
+  margin: 0;
+  color: var(--color-text-secondary);
+}
+
