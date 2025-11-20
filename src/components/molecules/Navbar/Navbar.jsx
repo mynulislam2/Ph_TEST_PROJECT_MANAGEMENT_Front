@@ -41,7 +41,7 @@ export const Navbar = () => {
         <div className="navbar__user">
           <div>
             <p>Workspace</p>
-            <strong>Acme Labs</strong>
+            <strong>Demo</strong>
           </div>
           <Avatar name="You" />
         </div>

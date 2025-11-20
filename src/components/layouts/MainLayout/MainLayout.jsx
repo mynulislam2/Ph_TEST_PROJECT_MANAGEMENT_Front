@@ -14,10 +14,6 @@ export const MainLayout = () => (
   <div className="main-layout">
     <aside className="main-layout__sidebar">
       <div>
-        <div className="main-layout__logo">
-          <span>STM</span>
-          <p>Balance work and capacity effortlessly</p>
-        </div>
         <div className="main-layout__sidebar-links">
           {sidebarLinks.map((link) => (
             <SidebarItem key={link.to} to={link.to} label={link.label} icon={link.icon} />
