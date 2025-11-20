@@ -4,7 +4,7 @@ export const colors = {
   secondary: '#F97316',      // Warm Orange
   accent: '#D946EF',         // Pinkish Purple
   background: '#1A1A1A',     // True Dark Gray (no blue tint)
-  surface: '#222222',        // Dark Neutral Surface
+  surface: '#12162A',        // Dark Neutral Surface
   surfaceAlt: '#2A2A2A',     // Slightly lighter neutral
   card: '#2F2B3A',           // Subtle purple-tinted gray
   border: '#3A3A3A',         // Neutral dark border
