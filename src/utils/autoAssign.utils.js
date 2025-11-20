@@ -1,10 +1,13 @@
 export const pickLowestLoadMember = (members = []) => {
   if (!members.length) return null;
-  const sorted = [...members].sort((a, b) => {
-    const aRatio = a.capacity === 0 ? Infinity : a.current_tasks / a.capacity;
-    const bRatio = b.capacity === 0 ? Infinity : b.current_tasks / b.capacity;
-    return aRatio - bRatio;
+  const sorted = [...members].sort((PersonA, PersonB) => {
+    const PersonARatio = PersonA.capacity === 0 ? Infinity : PersonA.current_tasks / PersonA.capacity;
+    const PersonBRatio = PersonB.capacity === 0 ? Infinity : PersonB.current_tasks / PersonB.capacity;
+    return PersonARatio - PersonBRatio;
   });
   return sorted[0];
 };
+
+
+
 
