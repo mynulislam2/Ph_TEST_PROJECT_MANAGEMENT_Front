@@ -37,11 +37,10 @@ export const Navbar = () => {
         </div>
       </div>
       <div className="navbar__right">
-        <Button variant="ghost">+ New Task</Button>
         <div className="navbar__user">
           <div>
             <p>Workspace</p>
-            <strong>Demo</strong>
+            <strong>Demo Company</strong>
           </div>
           <Avatar name="You" />
         </div>
