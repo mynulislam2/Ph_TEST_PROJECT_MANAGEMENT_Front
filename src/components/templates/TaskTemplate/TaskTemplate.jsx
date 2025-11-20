@@ -14,7 +14,7 @@ export const TaskTemplate = ({
   children,
 }) => (
   <div className="task-template">
-    <div className="task-template__toolbar card">
+    <div className="task-template__toolbar">
       <div className="task-template__filters">
         <Select
           label="Project"

@@ -10,7 +10,7 @@ export const TeamTemplate = ({
   children,
 }) => (
   <div className="team-template">
-    <div className="team-template__toolbar card">
+    <div className="team-template__toolbar">
       <div>
         <p>Teams</p>
         <h2>Build squads and balance capacity</h2>

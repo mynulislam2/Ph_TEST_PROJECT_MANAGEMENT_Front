@@ -4,7 +4,7 @@ import './ProjectTemplate.css';
 
 export const ProjectTemplate = ({ teams, projects, onOpenCreate, children }) => (
   <div className="project-template">
-    <div className="project-template__toolbar card">
+    <div className="project-template__toolbar">
       <div>
         <p>Projects</p>
         <h2>Organize workstreams by team</h2>
