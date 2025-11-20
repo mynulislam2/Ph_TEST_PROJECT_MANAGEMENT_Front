@@ -1,21 +1,20 @@
 export const colors = {
-  primary: '#4F46E5',
-  primaryDark: '#4338CA',
-  secondary: '#0EA5E9',
-  accent: '#EC4899',
-  background: '#0F172A',
-  surface: '#101B33',
-  surfaceAlt: '#172342',
-  card: '#1E2A4A',
-  border: '#2B3554',
-  textPrimary: '#F8FAFC',
-  textSecondary: '#94A3B8',
-  muted: '#64748B',
-  danger: '#F87171',
-  warning: '#FBBF24',
-  success: '#34D399',
-  info: '#38BDF8',
-  overlay: 'rgba(15, 23, 42, 0.75)',
-  gradient: 'linear-gradient(135deg, #4F46E5 0%, #0EA5E9 100%)',
+  primary: '#A855F7',        // Vibrant Purple
+  primaryDark: '#7E22CE',    // Deep Royal Purple
+  secondary: '#F97316',      // Warm Orange
+  accent: '#D946EF',         // Pinkish Purple
+  background: '#1A1A1A',     // True Dark Gray (no blue tint)
+  surface: '#222222',        // Dark Neutral Surface
+  surfaceAlt: '#2A2A2A',     // Slightly lighter neutral
+  card: '#2F2B3A',           // Subtle purple-tinted gray
+  border: '#3A3A3A',         // Neutral dark border
+  textPrimary: '#FAF7F5',    // Off-white (no blue)
+  textSecondary: '#C0B8B1',  // Warm gray
+  muted: '#8C857E',          // Earthy muted tone
+  danger: '#EF4444',         // Red
+  warning: '#F59E0B',        // Warm yellow-orange
+  success: '#22C55E',        // Green
+  info: '#E879F9',           // Light purple (instead of blue)
+  overlay: 'rgba(26, 26, 26, 0.75)',  // Neutral overlay
+  gradient: 'linear-gradient(135deg, #A855F7 0%, #F97316 100%)',
 };
-
