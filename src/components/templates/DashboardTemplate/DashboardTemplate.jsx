@@ -23,7 +23,7 @@ export const DashboardTemplate = ({
   onDismissFeedback,
 }) => (
   <div className="dashboard-template">
-    <div className="dashboard-template__hero card">
+    <div className="dashboard-template__hero">
       <div>
         <p>Welcome back</p>
         <h1>Stay ahead of workload spikes</h1>
