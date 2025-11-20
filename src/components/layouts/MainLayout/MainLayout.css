@@ -15,6 +15,12 @@
   box-shadow: var(--shadow-inset);
 }
 
+.main-layout__sidebar-top {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
 .main-layout__logo span {
   font-weight: 800;
   font-size: var(--font-size-lg);
@@ -34,6 +40,12 @@
   margin-top: var(--space-6);
 }
 
+.main-layout__sidebar-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
 .main-layout__sidebar-footer {
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: var(--radius-lg);
@@ -44,6 +56,22 @@
 
 .main-layout__sidebar-footer p {
   margin: 0 0 var(--space-3) 0;
+  color: var(--color-text-secondary);
+}
+
+.main-layout__logout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-3);
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.main-layout__logout p {
+  margin: 0;
+  font-size: var(--font-size-xs);
   color: var(--color-text-secondary);
 }
 
